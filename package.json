@@ -1,0 +1,26 @@
+{
+  "name": "generator-porla",
+  "version": "0.1.0",
+  "description": "Porla generator for Yeoman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porla/generator-porla.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "porla"
+  ],
+  "author": "Viktor Elofsson <viktor@viktorelofsson.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/porla/generator-porla/issues"
+  },
+  "homepage": "https://github.com/porla/generator-porla#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.24.1"
+  }
+}
