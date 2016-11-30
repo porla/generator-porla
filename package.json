@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/porla/generator-porla#readme",
   "dependencies": {
+    "underscore.string": "^3.3.4",
     "yeoman-generator": "^0.24.1"
   }
 }
