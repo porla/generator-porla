@@ -16,9 +16,7 @@ const PorlaGenerator = generators.Base.extend({
     },
 
     end: function() {
-        // TODO: remove 'nan' when 'porla-libtorrent'
-        //       utilizes node-pre-gyp.
-        const packages = [ 'nan', 'porla' ];
+        const packages = [ 'porla' ];
         this.npmInstall(packages, { save: true });
 
         this.log('Porla is ready to be awesome!');
