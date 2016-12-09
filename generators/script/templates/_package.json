@@ -1,0 +1,15 @@
+{
+  "name": "<%= appName %>",
+  "version": "0.0.1",
+  "author": "<%= appOwner %>",
+  "keywords": [ "porla-script", "<%= appName %>" ],
+  "dependencies": {
+  },
+  "devDependencies": {
+      "porla": "0.x"
+  },
+  "peerDependencies": {
+      "porla": "0.x"
+  },
+  "main": "./src/index"
+}
