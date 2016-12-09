@@ -8,6 +8,8 @@ const PorlaGenerator = generators.Base.extend({
             this.destinationPath('bin/')
         );
 
+        this.fs.copy(this.templatePath('gitignore'), this.destinationPath('.gitignore'));
+
         this.fs.copyTpl(
             this.templatePath('_package.json'),
             this.destinationPath('package.json'),
